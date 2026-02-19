@@ -56,3 +56,11 @@ body {
     border-radius: 10px;
     margin-top: 20px;
   }
+  /* Smooth fade effect */
+  #mainImage {
+      transition: opacity 0.4s ease-in-out;
+  }
+
+  .fade-out {
+      opacity: 0;
+  }
